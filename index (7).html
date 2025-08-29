@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VPN Store | پلن‌ها و قیمت‌ها</title>
+  <!-- فونت؛ در صورت فیلتر شدن، سیستم به فونت‌های پیش‌فرض می‌افتد -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0f0d; --card:#101513; --stroke:#1d2b23;
+      --fg:#eaf7ee; --muted:#9ec5a8;
+      --accent:#1dfd6e; --accent-2:#00d15a; --ring:rgba(29,253,110,.25);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; background:
+        radial-gradient(1000px 600px at 10% -10%, #0f2419 0%, transparent 50%),
+        radial-gradient(1000px 600px at 90% 110%, #0f2419 0%, transparent 50%),
+        var(--bg);
+      color:var(--fg);
+      font-family:"Vazirmatn",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      line-height:1.7;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px; margin-inline:auto; padding:24px}
+    header{display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:24px; border-bottom:1px solid var(--stroke); padding-bottom:16px;}
+    .brand{display:flex; align-items:center; gap:12px}
+    .logo{
+      width:48px;height:48px;border-radius:9999px;display:grid;place-items:center;
+      background:conic-gradient(from 180deg,#0f2419,#163926,#0f2419);
+      border:1px solid var(--stroke);
+      box-shadow:0 0 0 3px var(--ring), 0 0 24px rgba(29,253,110,.15);
+      font-size:26px;
+    }
+    .title{font-weight:800; font-size:1.25rem}
+    .subtitle{color:var(--muted); font-size:.95rem}
+    .hint{color:var(--muted); font-size:.9rem}
+
+    section{margin-top:28px}
+    h2{font-size:1.15rem; margin:0 0 12px; font-weight:800}
+    .grid{display:grid; gap:12px}
+    @media (min-width:640px){ .grid{grid-template-columns:repeat(2,1fr)} }
+    @media (min-width:920px){ .grid{grid-template-columns:repeat(3,1fr)} }
+
+    .card{
+      background:linear-gradient(180deg, rgba(29,253,110,.05), transparent 45%), var(--card);
+      border:1px solid var(--stroke); border-radius:18px; padding:16px; position:relative; overflow:hidden;
+      box-shadow:0 2px 0 0 rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.02);
+    }
+    .badge{display:inline-flex; align-items:center; gap:6px; padding:.25rem .6rem; border:1px solid var(--stroke); border-radius:999px; font-size:.85rem; color:var(--muted)}
+    .badge .dot{width:8px;height:8px;background:var(--accent);border-radius:50%; box-shadow:0 0 8px var(--accent)}
+    .plan-title{display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:10px}
+    .gb{font-size:1.6rem; font-weight:800; letter-spacing:.5px}
+    .price{font-size:1.25rem; font-weight:800; margin-top:6px}
+    .price small{font-weight:600; color:var(--muted)}
+    .cta{margin-top:10px}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:8px;
+      padding:.55rem .9rem; border-radius:12px; font-weight:800; font-size:.95rem;
+      background:linear-gradient(180deg, var(--accent), var(--accent-2)); color:#08110b;
+      border:none; cursor:pointer; box-shadow:0 6px 20px rgba(29,253,110,.22);
+    }
+    .btn:hover{filter:saturate(110%)}
+
+    .table{width:100%; border-collapse:separate; border-spacing:0; overflow:hidden; border-radius:14px; border:1px solid var(--stroke)}
+    .table thead th{background:#0f1714; color:var(--muted); font-weight:700; padding:10px 12px; text-align:right}
+    .table tbody td{padding:10px 12px; border-top:1px solid var(--stroke)}
+    .chip{display:inline-flex; align-items:center; gap:6px; padding:.1rem .5rem; background:#0f1714; border:1px solid var(--stroke); border-radius:999px}
+
+    footer{margin-top:36px; border-top:1px solid var(--stroke); padding-top:16px; color:var(--muted)}
+    .kebab{display:flex; gap:10px; flex-wrap:wrap}
+    .kebab a{background:#0f1714; border:1px solid var(--stroke); border-radius:999px; padding:.35rem .7rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <a class="logo" href="https://t.me/Vpn_or" target="_blank" rel="noopener">🔒</a>
+        <div>
+          <div class="title"><a href="https://t.me/Vpn_or" target="_blank" rel="noopener">VPN STORE</a></div>
+          <div class="subtitle">پلن‌های ویژه با اتصال پایدار و پرسرعت</div>
+        </div>
+      </div>
+      <div class="hint">برای سفارش و پشتیبانی: <a href="https://t.me/Adm_or" target="_blank" rel="noopener">@Adm_or</a></div>
+    </header>
+
+    <!-- 1 ماهه | 2 کاربره -->
+    <section>
+      <h2>۱ ماهه | ۲ کاربره</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="plan-title"><span>۵۰ گیگ</span><span class="badge"><span class="dot"></span> ماهانه</span></div>
+          <div class="gb">50GB</div>
+          <div class="price">147,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۱ ماهه ۲ کاربره - 50GB به قیمت 147,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+        <div class="card">
+          <div class="plan-title"><span>۱۰۰ گیگ</span><span class="badge"><span class="dot"></span> ماهانه</span></div>
+          <div class="gb">100GB</div>
+          <div class="price">205,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۱ ماهه ۲ کاربره - 100GB به قیمت 205,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+        <div class="card">
+          <div class="plan-title"><span>۲۰۰ گیگ</span><span class="badge"><span class="dot"></span> ماهانه</span></div>
+          <div class="gb">200GB</div>
+          <div class="price">271,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۱ ماهه ۲ کاربره - 200GB به قیمت 271,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 ماهه | 2 کاربره -->
+    <section>
+      <h2>۲ ماهه | ۲ کاربره</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="plan-title"><span>۳۰ گیگ</span><span class="badge"><span class="dot"></span> دو ماهه</span></div>
+          <div class="gb">30GB</div>
+          <div class="price">163,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۲ ماهه ۲ کاربره - 30GB به قیمت 163,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+        <div class="card">
+          <div class="plan-title"><span>۵۰ گیگ</span><span class="badge"><span class="dot"></span> دو ماهه</span></div>
+          <div class="gb">50GB</div>
+          <div class="price">189,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۲ ماهه ۲ کاربره - 50GB به قیمت 189,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+        <div class="card">
+          <div class="plan-title"><span>۱۰۰ گیگ</span><span class="badge"><span class="dot"></span> دو ماهه</span></div>
+          <div class="gb">100GB</div>
+          <div class="price">255,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۲ ماهه ۲ کاربره - 100GB به قیمت 255,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+        <div class="card">
+          <div class="plan-title"><span>۲۰۰ گیگ</span><span class="badge"><span class="dot"></span> دو ماهه</span></div>
+          <div class="gb">200GB</div>
+          <div class="price">389,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۲ ماهه ۲ کاربره - 200GB به قیمت 389,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 ماهه | 2 کاربره -->
+    <section>
+      <h2>۳ ماهه | ۲ کاربره</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="plan-title"><span>۵۰ گیگ</span><span class="badge"><span class="dot"></span> سه ماهه</span></div>
+          <div class="gb">50GB</div>
+          <div class="price">221,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۳ ماهه ۲ کاربره - 50GB به قیمت 221,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+        <div class="card">
+          <div class="plan-title"><span>۱۰۰ گیگ</span><span class="badge"><span class="dot"></span> سه ماهه</span></div>
+          <div class="gb">100GB</div>
+          <div class="price">313,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۳ ماهه ۲ کاربره - 100GB به قیمت 313,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+        <div class="card">
+          <div class="plan-title"><span>۲۰۰ گیگ</span><span class="badge"><span class="dot"></span> سه ماهه</span></div>
+          <div class="gb">200GB</div>
+          <div class="price">489,000 <small>تومان</small></div>
+          <div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن ۳ ماهه ۲ کاربره - 200GB به قیمت 489,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش این پلن</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- زمان و کاربر نامحدود -->
+    <section>
+      <h2>زمان و کاربر نامحدود</h2>
+      <table class="table">
+        <thead>
+          <tr><th>حجم</th><th>قیمت</th><th>توضیح</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>۱۰ گیگ</td><td>128,000 تومان</td><td><span class="chip">👥 نامحدود</span> <a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن نامحدود (زمان و کاربر) - 10GB به قیمت 128,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش</a></td></tr>
+          <tr><td>۲۰ گیگ</td><td>142,000 تومان</td><td><span class="chip">👥 نامحدود</span> <a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن نامحدود (زمان و کاربر) - 20GB به قیمت 142,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش</a></td></tr>
+          <tr><td>۳۰ گیگ</td><td>156,000 تومان</td><td><span class="chip">👥 نامحدود</span> <a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن نامحدود (زمان و کاربر) - 30GB به قیمت 156,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش</a></td></tr>
+          <tr><td>۴۰ گیگ</td><td>170,000 تومان</td><td><span class="chip">👥 نامحدود</span> <a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن نامحدود (زمان و کاربر) - 40GB به قیمت 170,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش</a></td></tr>
+          <tr><td>۵۰ گیگ</td><td>184,000 تومان</td><td><span class="chip">👥 نامحدود</span> <a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن نامحدود (زمان و کاربر) - 50GB به قیمت 184,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش</a></td></tr>
+          <tr><td>۱۰۰ گیگ</td><td>240,000 تومان</td><td><span class="chip">👥 نامحدود</span> <a class="btn" href="https://t.me/Adm_or?start=سلام، می‌خوام پلن نامحدود (زمان و کاربر) - 100GB به قیمت 240,000 تومان رو سفارش بدم" target="_blank" rel="noopener">سفارش</a></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- VIP -->
+    <section>
+      <h2>سرویس VIP (مواقع ملی شدن اینترنت) — تک‌کاربره</h2>
+      <div class="grid">
+        <div class="card"><div class="plan-title"><span>۱ ماهه</span><span class="badge"><span class="dot"></span> VIP</span></div><div class="price">199,000 <small>تومان</small></div><div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، سرویس VIP تک‌کاربره ۱ ماهه می‌خوام — قیمت 199,000 تومان" target="_blank" rel="noopener">سفارش</a></div></div>
+        <div class="card"><div class="plan-title"><span>۲ ماهه</span><span class="badge"><span class="dot"></span> VIP</span></div><div class="price">298,000 <small>تومان</small></div><div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، سرویس VIP تک‌کاربره ۲ ماهه می‌خوام — قیمت 298,000 تومان" target="_blank" rel="noopener">سفارش</a></div></div>
+        <div class="card"><div class="plan-title"><span>۳ ماهه</span><span class="badge"><span class="dot"></span> VIP</span></div><div class="price">397,000 <small>تومان</small></div><div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، سرویس VIP تک‌کاربره ۳ ماهه می‌خوام — قیمت 397,000 تومان" target="_blank" rel="noopener">سفارش</a></div></div>
+        <div class="card"><div class="plan-title"><span>۶ ماهه</span><span class="badge"><span class="dot"></span> VIP</span></div><div class="price">694,000 <small>تومان</small></div><div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، سرویس VIP تک‌کاربره ۶ ماهه می‌خوام — قیمت 694,000 تومان" target="_blank" rel="noopener">سفارش</a></div></div>
+        <div class="card"><div class="plan-title"><span>۱۲ ماهه</span><span class="badge"><span class="dot"></span> VIP</span></div><div class="price">1,288,000 <small>تومان</small></div><div class="cta"><a class="btn" href="https://t.me/Adm_or?start=سلام، سرویس VIP تک‌کاربره ۱۲ ماهه می‌خوام — قیمت 1,288,000 تومان" target="_blank" rel="noopener">سفارش</a></div></div>
+      </div>
+    </section>
+
+    <!-- سرورها -->
+    <section>
+      <h2>سرورها</h2>
+      <p class="hint">🇺🇸 آمریکا · 🇩🇪 آلمان · 🇫🇷 فرانسه · 🇹🇷 ترکیه · 🇳🇱 هلند · 🇴🇲 عمان · 🇸🇦 عربستان · 🇦🇪 امارات · 🇫🇮 فنلاند</p>
+    </section>
+
+    <footer>
+      <div class="kebab">
+        <a href="https://t.me/Vpn_or?start=سلام، می‌خوام اخبار مربوط به VPN Store رو دنبال کنم" target="_blank" rel="noopener">📢 اخبار: @Vpn_or</a>
+        <a href="https://t.me/edue_or?start=سلام، می‌خوام آموزش‌های VPN Store رو دریافت کنم" target="_blank" rel="noopener">📚 آموزش: @edue_or</a>
+        <a href="https://t.me/Adm_or?start=سلام، نیاز به خرید و پشتیبانی دارم" target="_blank" rel="noopener">📩 خرید و پشتیبانی: @Adm_or</a>
+      </div>
+      <p class="hint">همه قیمت‌ها برای ۲ کاربره و با پشتیبانی سرورهای بین‌المللی است.</p>
+    </footer>
+  </div>
+</body>
+</html>
